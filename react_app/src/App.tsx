@@ -1,12 +1,15 @@
-import Button from '@mui/material/Button';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import FirstPage from './pages/FirstPage';
+import SecondPage from './pages/SecondPage';
 
 function App() {
   return (
-    <div>
-      <Button variant="contained" color="primary">
-        Click me
-      </Button>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<FirstPage />} />
+        <Route path="/second-page" element={<SecondPage />} />
+      </Routes>
+    </Router>
   );
 }
 
