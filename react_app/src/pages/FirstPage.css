@@ -1,0 +1,14 @@
+.center-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{ 
+    margin-top: 100px;
+    width: 25rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
