@@ -27,11 +27,12 @@ function DepartmentComponent({ department }: DepartmentComponentProps) {
 
   return (
     <div>
-      <ListItemButton onClick={handleToggle}>
+      <ListItemButton sx={{backgroundColor: 'white', border : '1px solid black'}} onClick={handleToggle}>
         {/* Icon to expand/collapse */}
         {expanded ? "-" : "+"}
         <ListItemText primary={department.name} />
       </ListItemButton>
+
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           {department.subDepartments.map((subDept) => (
