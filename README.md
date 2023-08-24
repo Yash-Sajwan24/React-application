@@ -1,29 +1,31 @@
 # React-application
 
-# React + TypeScript + Vite
+Welcome to my Vite-based React application! This project is built to showcase my skills in building modern web applications using Vite, React, and other technologies.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- **Fetching Data:** The application fetches data from an external API and displays it in a table using the react-data-grid package.
+- **TypeScript Integration:** TypeScript is used for strong type-checking and better development experience.
+- **Responsive Design:** The UI is designed to be responsive, ensuring a seamless experience on various devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+1. Clone this repository to your local machine.
+2. Navigate to the project directory: `cd ./react_app/`
+3. Install dependencies: `npm install`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Usage
 
-- Configure the top-level `parserOptions` property like this:
+1. Run the development server: `npm run dev`
+2. Open your browser and visit `http://localhost:5173/` to see the app in action.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Tech Stack
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Vite
+- React
+- TypeScript
+- axios
+- react-data-grid
+- Netlify
+
+
