@@ -2,6 +2,10 @@
 
 Welcome to my Vite-based React application! This project is built to showcase my skills in building modern web applications using Vite, React, and other technologies.
 
+## Live Deployment 
+
+https://reactappgmo.netlify.app/
+
 ## Features
 
 - **Fetching Data:** The application fetches data from an external API and displays it in a table using the react-data-grid package.
